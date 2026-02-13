@@ -122,3 +122,12 @@ This project expects a CSV containing quarterly ratio data with at least:
 Example:
 ```python
 csv_path = "data/Cleaned_Tech_Financial_Ratios.csv"
+```
+---
+
+## Author
+
+**Kurt Wattelet II**  
+B.A. Finance – Financial Analytics  
+University of Arkansas  
+2024
