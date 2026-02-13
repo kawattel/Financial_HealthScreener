@@ -1,2 +1,2 @@
 # Financial_HealthScreener
-repo for my Financial Analytics I project from 2024
+This is my Financial Analytics I project from 2024
