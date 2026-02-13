@@ -1,0 +1,66 @@
+This project is an interactive Financial Statement Analyzer Dashboard designed for analyzing the financial performance of leading tech companies. Built with Streamlit, the dashboard provides insights into profitability, solvency, and efficiency ratios, alongside real-time stock price updates. It's an ideal tool for investors, analysts, and finance enthusiasts.
+
+Features
+
+1. Financial Ratio Analysis
+Visualize key financial ratios over time, including:
+Net Profit Margin (NPM), Return on Assets (ROA), and Return on Equity (ROE).
+Current Ratio and Quick Ratio for liquidity analysis.
+Customizable Options:
+Toggle trend lines, 4-quarter moving averages, and confidence intervals.
+Compare selected companies against industry benchmarks.
+2. Solvency and Efficiency Ratio Analysis
+Analyze metrics like:
+Debt-to-Equity Ratio for solvency.
+Inventory Turnover, Asset Turnover, and Receivables Turnover for efficiency.
+Dynamic visualizations for company comparisons.
+3. Live Stock Price Updates and Historical Price Trends
+Fetch real-time stock prices using yfinance. View historical trends pulled from yfinance.
+Display price changes with green (up) or red (down) arrows.
+4. Financial and Efficiency Ratio Rankings
+Rank companies based on selected financial or efficiency ratios.
+Visualize rankings with color-coded bar charts.
+5. Interactive and User-Friendly Design
+Select companies, date ranges, and metrics via the sidebar.
+View performance summaries and download the dataset in CSV format.
+Tech Stack
+
+Python: Core programming language.
+Streamlit: Web application framework.
+Pandas: Data analysis and manipulation.
+Matplotlib: For static data visualizations.
+yfinance: Integration for live stock data.
+Dependencies
+
+This project requires the following libraries:
+
+Streamlit
+Pandas
+Matplotlib
+yfinance
+NumPy
+SciPy
+Install these using the requirements.txt file provided:
+
+pip install -r requirements.txt
+
+How to Use:
+Download the Cleaned_Tech_Financial_Ratios.csv, 
+then run the .py file using your unique filepath in VS code
+
+Select Companies:
+Use the sidebar to choose one or more tech companies for analysis.
+Explore Financial Ratios:
+Visualize financial, solvency, and efficiency ratios over time.
+Compare company performance against industry benchmarks.
+Real-Time Stock Prices:
+View live stock prices and track daily price movements with arrows.
+Download Data:
+Export the cleaned dataset as a CSV file for further analysis.
+
+Known Issues:
+
+Real-Time Stock Data:
+Stock prices may not update during weekends, holidays, or other periods when markets are closed.
+API Rate Limits:
+Excessive requests to yfinance may result in temporary errors.
